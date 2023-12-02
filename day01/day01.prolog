@@ -1,4 +1,4 @@
-exercise1(File) :-
+day01(File) :-
     open(File, read, Stream),
     process_lines(Stream, 0, Sum),
     write('Sum: '), write(Sum), nl,
